@@ -17,7 +17,10 @@ class ZMDimmerDevice extends ZwaveDevice
     this.buttonMap = 
     {
       1: {
-        button: 'External switch',
+        button: 'External switch 1',
+      },
+      2: {
+        button: 'External switch 2',
       }
     };
 
@@ -105,7 +108,7 @@ class ZMDimmerDevice extends ZwaveDevice
     if (this.hasCapability('meter_power')) this.registerCapability('meter_power', 'METER');
     if (this.hasCapability('measure_power')) this.registerCapability('measure_power', 'METER');
 
-    this.log('Z-Dim2 has been initialized');
+    this.log('ZM-Dimmer has been initialized');
 
     this.setAvailable().catch(this.error); 
   }

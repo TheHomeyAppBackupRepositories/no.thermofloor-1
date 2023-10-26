@@ -23,6 +23,8 @@
 	"Dimmer": "Dimmer button",
 	"Rotary button" : "Rotary button",
 	"External switch" : "External switch",
+	"External switch 1" : "External switch 1",
+	"External switch 2" : "External switch 2",
 	"pairing": {
 		"configuring": "Configuring..."
 	}
